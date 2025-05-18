@@ -25,4 +25,4 @@ double CalculaSalario(double valorHora, double horasTrabalhadas, double horaExtr
 
 
 double salarioFinal = CalculaSalario(valorHora, horasTrabalhadas, horaExtra);
-Console.WriteLine($"Seu salario total é:{salarioFinal}");
+Console.WriteLine($"Seu salario total é: {salarioFinal:C2}");
